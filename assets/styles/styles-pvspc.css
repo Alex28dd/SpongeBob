@@ -1,0 +1,58 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background: url(../img/chumBucket.png);
+	background-repeat: no-repeat ;
+	background-attachment: fixed;
+	background-size: 100%;
+	
+
+
+}
+
+@font-face {
+	font-family: spongeBob;
+	src: url('../fonts/Spongeboy Me Bob.ttf');
+}
+
+.logo {
+	width: 300px;
+	text-align: center;
+}
+
+/*33CEFF*/
+/*33E0FF*/
+h1 {
+	background-color: rgba(16,158,149,0.4);
+	font-size: 50px;
+	padding: 10PX;
+	color: #fff;
+	text-align: center;
+	font-family: spongeBob;
+}
+
+.pvsp {
+	width: 100px;
+}
+
+.menu {
+	/*background: #33E0FF;*/
+	margin: 10px 10px;
+	display: flex;
+	
+}
+
+.superBob {
+	width: 250px;
+}
+
+.superPat {
+	width: 350px;
+}
+.superCala {
+	width: 200px;
+}
+

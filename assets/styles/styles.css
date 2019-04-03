@@ -1,0 +1,97 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background: url(../img/spongebob-background-jessaotero.jpg);
+	background-repeat: no-repeat ;
+	/*background-attachment: fixed;*/
+	background-size: 100%;
+	/*width: 100%;*/
+	/*height: 100%;*/
+	/*position: absolute;*/
+
+
+}
+
+@font-face {
+	font-family: spongeBob;
+	src: url('../fonts/Spongeboy Me Bob.ttf');
+}
+
+.logo {
+	width: 300px;
+	text-align: center;
+}
+
+/*33CEFF*/
+/*33E0FF*/
+h1 {
+	background-color: rgba(16,158,149,0.4);
+	font-size: 50px;
+	padding: 10PX;
+	color: #fff;
+	text-align: center;
+	font-family: spongeBob;
+}
+
+.menu {
+	/*display: inline-block;*/
+}
+
+#players {
+	display: inline-block;
+	font-size: 30px;
+	color: #fff;
+	text-align: left;
+	font-family: spongeBob;
+	padding: 130px; 
+}
+
+#random {
+	display: inline-block;
+	font-size: 30px;
+	color: #fff;
+	text-align: right;
+	font-family: spongeBob;
+	padding: 150px;
+
+}
+/*769A2F*/
+/*1AF8F1*/
+/*linear-gradient(green, yellow)*/
+.spongevs {
+	/*background: yellow;*/
+	text-align: center;
+	color: blue;
+}
+
+.Karen {
+	text-align: center;
+	color: blue;
+}
+
+#players:hover {
+	/*background: url(img/sbpat.png);*/
+	border: .5px solid lightblue;
+	border-radius: 50%;
+	background-color: rgba(0,0,255,0.2);
+
+}
+
+#random:hover {
+	/*background: url(img/sbpat.png);*/
+	border: .5px solid lightblue;
+	border-radius: 50%;
+	background-color: rgba(0,0,255,0.2);
+}
+
+.pvsp {
+	width: 400px;
+}
+
+.karen {
+	width: 300px;	
+
+}
